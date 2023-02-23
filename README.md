@@ -1,0 +1,1 @@
+# Meu currículo em forma de landing page feito com as tecnologias html, css, javascript e photoshop
