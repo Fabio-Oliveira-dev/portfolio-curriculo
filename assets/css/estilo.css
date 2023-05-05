@@ -6,30 +6,114 @@
   /*flex-wrap: wrap; Vai jogar os elementos para a linha de baixo */
   /*flex-flow: ; Identificar se quero o flex-direction e o flex-wrap de uma vez só*/
   align-content: center; /* Quando já tem o flex-wrap e quero alinha no eixo perpendicular a linhas*/
-  row-gap: 10px; /* gap, row-gap, column é para fixar tamanho no espaço entre os elementos*/
-  column-gap: 30px;
+  row-gap: 5px; /* gap, row-gap, column é para fixar tamanho no espaço entre os elementos*/
+  column-gap: 10px;
   /*align-items: stretch; /* Alinhar os elementos no eixo perpendicular */
   /*flex-basis: auto; /*Vai definir o tamanho dos elementos tanto em largura quanto em altura.*/
 
-  height: 600px;
-  background: orange;
-  padding: 16px;
+  font-family: poppinsregular;
+  color: white;
+  margin: 0 auto;
+  max-width: 1230px;
+  max-height: 1040px;
+  background: rgb(34, 34, 34);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#nome, h2, h3{
+  color: black;
+  text-align: center;
+}
+
+h3{
+  color: black;
+}
+
+h2 h3{
+  font-family: poppinsmedium;
+}
+
+p{
+  font-family: poppinslight;
+}
+
+img{
+  object-fit: cover;
+}
+.img_eu img{
+  position: relative;
+  left: 135px;
+
+  border: 2px solid black;
+  border-radius: 80px;
+  width: 150px;
+  height: 150px;
 }
 
 .box_1{
-  background: greenyellow;
+  background: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
   border: 2px black solid;
   margin: 5px;
-  width: 500px;
+  width: 540px;
 }
 
 .box_2{
-  background: rebeccapurple;
+  background: rgb(132, 14, 201);
   padding: 10px;
   border-radius: 5px;
   border: 2px black solid;
-  margin: 5px;
+  margin: 5px 0px 0px 0px;
   width: 800px;
+}
+
+.redes_sociais li, a{
+  display: inline-flex;
+  justify-items: center;
+  
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+#contatos li{
+  display: inline-flex;
+  justify-items: center;
+
+  color: black;
+  text-align: center;
+  margin: 5px;
+}
+#nome, #contatos{
+  line-height: 10px;
+}
+
+#educacao li{
+  display: inline-flex;
+
+  color: black;
+  text-align: center;
+}
+
+.skills_app li{
+  display: inline-flex;
+  
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+}
+.skills_app img{
+  position: relative;
+  left: 30px;
+}
+
+
+.experiencias p{
+  padding: 20px;
+  line-height: 18px;
+}
+.experiencias h2, h3{
+  line-height: 20px;
 }
