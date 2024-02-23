@@ -1,27 +1,104 @@
 .container{
-  display: flex; /* Vai identificar que a minha tag vai ser o elemento container */
-  flex-direction: row; /* vai me dizer qual é a direção do meu eixo principal */
-  justify-content: center; /* vai alinhar os elementos no eixo principal */
-  /*align-items: center; /* Alinhar os elementos no eixo perpendicular */
-  /*flex-wrap: wrap; Vai jogar os elementos para a linha de baixo */
-  /*flex-flow: ; Identificar se quero o flex-direction e o flex-wrap de uma vez só*/
-  align-content: center; /* Quando já tem o flex-wrap e quero alinha no eixo perpendicular a linhas*/
-  row-gap: 5px; /* gap, row-gap, column é para fixar tamanho no espaço entre os elementos*/
-  column-gap: 10px;
-  /*align-items: stretch; /* Alinhar os elementos no eixo perpendicular */
-  /*flex-basis: auto; /*Vai definir o tamanho dos elementos tanto em largura quanto em altura.*/
-
-  font-family: poppinsregular;
-  color: white;
-  margin: 0 auto;
-  max-width: 1230px;
-  max-height: 1040px;
   background: rgb(34, 34, 34);
-  padding: 15px;
-  border-radius: 10px;
 }
 
-#nome, h2, h3{
+.cabecalho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+  background-color: #353535;
+}
+
+.img-perfil{
+  object-fit: cover;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-top: 15px;
+}
+
+.titulos{
+  line-height: 25px;
+  text-align: center;
+}
+
+.titulo{
+  font-family: 'Poppinsbold',sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.subtitulo{
+  font-family: 'Poppinsregular',sans-serif;
+  font-size: 16px;
+}
+
+.caixa-principal-formacao-contatos{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.caixa-principal-formacao{
+  display: flex;
+  flex-direction: column;
+}
+
+.caixa-principal-redes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.caixa-principal-rede img{
+  width: 30px;
+  height: 30px;
+}
+
+.caixa-principal-rede img:hover{
+  box-shadow: #FFFFFF 1px 1px 5px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+  gap: 26px;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.menu a:hover{
+  color: #000000;
+}
+
+.caixa-frase{
+  height: 150px;
+  background-color: #183242;
+}
+
+.caixa-frase-paragrafo{
+  font-family: 'Poppinsbold', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 35px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.caixa-frase-paragrafo:hover{
+  color: #000000;
+}
+
+/* #nome, h2, h3{
   color: black;
   text-align: center;
 }
@@ -41,10 +118,9 @@ p{
 img{
   object-fit: cover;
 }
-.img_eu img{
+.img img{
   position: relative;
   left: 135px;
-
   border: 2px solid black;
   border-radius: 80px;
   width: 150px;
@@ -67,11 +143,12 @@ img{
   border: 2px black solid;
   margin: 5px 0px 0px 0px;
   width: 800px;
+  height: 985px;
 }
 
 .redes_sociais li, a{
   display: inline-flex;
-  justify-items: center;
+  justify-content: center;
   
   margin: 10px;
   width: 60px;
@@ -117,3 +194,8 @@ img{
 .experiencias h2, h3{
   line-height: 20px;
 }
+
+p:hover{
+  background-color: rgb(0,0 ,0, 0.3);
+  border-radius: 10px;
+} */

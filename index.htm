@@ -1,53 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Currículo</title>
+    <title>Meu Portfolio</title>
 
     <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
     
-
 </head>
 <body>
     
-    
     <main class="container">
-
-        <div id="box_1" class="box_1">
-            <div class="img_eu">
-                <img src="assets/img/eu.jpg" alt="" id="cover">
-            </div>
-    
-            <h1 id="nome">Fábio Oliveira Da Silva</h1>
-            <ul id="contatos">
-                <li>fabiooliveiraideia2@gmail.com</li>
-                <li>21 96891-7243</li>
-            </ul>
+        <header class="cabecalho">
+            <img class="img-perfil" src="assets/img/eu.jpg" alt="foto-perfil">
             
-            <ul class="redes_sociais">
-                <li id="git"><a href="">
-                    <img src="./assets/img/GITHUB.png" alt="github">
-                </a></li>
-                <li id="behance"><a href="">
-                    <img src="./assets/img/BEHANCE.png" alt="behance">
-                </a></li>
-                <li id="linkedin"><a href="">
-                    <img src="./assets/img/LINKEDIN.png" alt="linkedin">
-                </a></li>
-                <li id="tiktok"><a href="">
-                    <img src="./assets/img/TIKTOK.png" alt="tiktok">
-                </a></li>
-            </ul>
-                 
+            <section class="titulos">
+                <h1 class="titulo">Fábio Oliveira Da Silva</h1>
+                <h2 class="subtitulo">Desenvolvedor Full Stack</h2>
+            </section>
+            
+            <section class="caixa-principal-formacao-contatos">
+                <section class="caixa-principal-formacao">
+                    <p class="caixa-principal-formacao-paragrafo">Bacharelado em Engenharia de Software 4º Semestre | EAD</p>
+                    <p class="caixa-principal-formacao-paragrafo">Universidade Estácio de Sá | 2022 - 2026</p>
+                </section>
+
+                <section class="caixa-principal-contatos">
+                    <p class="caixa-contato-email">fabiooliveiraideia2@gmail.com</p>
+                    <p class="caixa-contato-tel">21 96891-7243</p>
+                </section>
+            </section >
+
+            <section class="caixa-principal-redes">
+                <a class="caixa-principal-rede" href="#"><img src="./assets/img/GITHUB.png" alt="github"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/img/BEHANCE.png" alt="behance"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/img/LINKEDIN.png" alt="linkedin"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/img/TIKTOK.png" alt="tiktok"></a>
+            </section>
+            
+            <nav class="menu">
+                <a href="#">Início</a>
+                <a href="#">Sobre Mim</a>
+                <a href="#">Projetos</a>
+                <a href="#">Currículo</a>
+                <a href="#">Skills</a>
+            </nav>
+        </header>
     
-            <ul id="educacao">
-                <li>Bacharelado em Engenharia de Software 3º semestre</li>
-                <li>Universidade Estácio de Sá - Abril 2022 - Abril 2026</li>
-            </ul>
-    
+        <section class="caixa-frase">
+            <p class="caixa-frase-paragrafo">"A mente que se abre a uma nova ideia,<br> jamais voltará ao seu tamanho original" <br>Autor - Albert Einstein</p>
+        </section>
+
             <div class="skills_app">
                 <h2>Hard skills</h2>
                 <h3>Linguagens de Programação Front-End</h3>
@@ -111,8 +117,8 @@
         
         <div id="box_2" class="box_2">
             <div class="experiencias">
-                <h2>Soft Skills</h2>
-                    <p>Ótima comunicação com a equipe, proatividade para resolução problemas, facilidade para trabalhar em equipe e facilidade para aprendizado.</p>
+                <h2 class="softskill" id="skill">Soft Skills</h2>
+                    <p id="paragrafo">Ótima comunicação com a equipe, proatividade para resolução problemas, facilidade para trabalhar em equipe e facilidade para aprendizado.</p>
 
                 <h2>CEI – INTERNATIONAL SCHOOL - Rio de Janeiro, Nova Iguaçu</h2>
                 <h3>Professor de Informatica - 11/2016 – 01/2017</h3>
@@ -136,8 +142,10 @@
 
     </main>
 
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scripteventos.js"></script>
 </body>
 
-<script src="./assets/js/script.js"></script>
+
 
 </html>
