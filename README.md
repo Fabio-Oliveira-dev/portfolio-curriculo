@@ -1,14 +1,13 @@
-# Meu portfólio com meus projetos profissionais.
-## Meu portfólio com minhas experiências profissionais em que trabalhei.
+# Bem vindos ao meu portfolio.
 
-# Link de acesso para o portfólio:
-https://bit.ly/3LLHd8J
+
+# Link de acessar:
+[https://bit.ly/3LLHd8J](https://fabio-oliveira-dev.github.io/Meu-portfolio-profissional/)
 
 ## Tecnologias usadas para o visual:
-HTML/CSS
-
-## Tecnologia usada para dar dinamismo para à pagina:
-JAVASCRIPT
+-Html
+-Css
+-Javascript
 
 ## Tecnologia usada para o tratamento das imagens:
-PHOTOSHOP
+Photoshop
