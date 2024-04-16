@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfolio</title>
+    <title>Fábio Oliveira - Portfolio</title>
 
     <link rel="stylesheet" href="./assets/css/estilo.css">
     <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/fonts.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <main class="container" id="inicio">
         <header class="cabecalho">
-            <img class="img-perfil" src="assets/img/eu.jpg" alt="foto-perfil">
+            <img class="img-perfil" src="./assets/components/img/eu.jpg" alt="foto-perfil">
             
             <section class="titulos">
                 <h1 class="titulo">Fábio Oliveira Da Silva</h1>
-                <h2 class="subtitulo">Desenvolvedor Full Stack</h2>
+                <h2 class="subtitulo">Desenvolvedor Full Stack Junior</h2>
             </section>
             
             <section class="caixa-principal-formacao-contatos">
@@ -34,10 +37,10 @@
             </section >
 
             <section class="caixa-principal-redes">
-                <a class="caixa-principal-rede" href="#"><img src="./assets/img/GITHUB.png" alt="github"></a>
-                <a class="caixa-principal-rede" href="#"><img src="./assets/img/BEHANCE.png" alt="behance"></a>
-                <a class="caixa-principal-rede" href="#"><img src="./assets/img/LINKEDIN.png" alt="linkedin"></a>
-                <a class="caixa-principal-rede" href="#"><img src="./assets/img/TIKTOK.png" alt="tiktok"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/components/img/GITHUB.png" alt="github"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/components/img/BEHANCE.png" alt="behance"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/components/img/LINKEDIN.png" alt="linkedin"></a>
+                <a class="caixa-principal-rede" href="#"><img src="./assets/components/img/TIKTOK.png" alt="tiktok"></a>
             </section>
             
             <nav class="menu">
@@ -54,9 +57,12 @@
         </section>
 
         <section class="sobre" id="sobre">
-            <h2>Sobre Mim</h2>
+            <h2 class="titulo">Sobre <span>Mim</span></h2>
             <p>
-                Eu sou o Fábio e sou estudante do curso superior de bacharelado de engenharia de software. Minha trajetória na area da TI começou em 2011 mais ou menos, quando meu primeiro emprego foi em uma lan house fazendo trabalhos de instalação de softwares, instalação de jogos, montagem e menutenção de computadores de clientes. Logo após eu atuei como professor de informática em uma ong e em um curso de informática. Fazia pequenas páginas web com blogspot para os comerciantes locais ja ganhando um pouco de experiência em html. Apos isso fui trabalhar em uma pequena agência de propaganda como designer gráfico ganhando exeriências em criação de designs impressos e para redes sociais.
+                Eu sou o Fábio e sou estudante do curso superior de bacharelado de engenharia de software. <br>
+                Hoje atuo na área da metal mecânica como soldador. Atualmente estou fazendo faculdade dentro da área de TI para migrar de carreira e pretendo me especializar na área web, cybersecurity e engenharia de dados. <br>
+                <br>
+                Minha trajetória na area da TI começou em 2011 mais ou menos, quando meu primeiro emprego foi em uma lan house fazendo trabalhos de instalação de softwares, instalação de jogos, montagem e menutenção de computadores de clientes. Logo após eu atuei como professor de informática em uma ong e em um curso de informática. Fazia pequenas páginas web com blogspot para os comerciantes locais ja ganhando um pouco de experiência em html. Apos isso fui trabalhar em uma pequena agência de propaganda como designer gráfico ganhando exeriências em criação de designs impressos e para redes sociais.
                 Após isso atuei em outras áreas de ramos diferentes , como a soldagem.
             </p><br>
             <p>
@@ -65,37 +71,120 @@
             </p>
         </section>
 
+        <!--Pagina projetos-->
         <section class="projetos" id="projetos">
-            <h2>Meus Projetos</h2>
-            <img src="" alt="">
-            <h3>Site Rota 66</h3>
-            <strong><p>Em produção</p></strong>
-            <a href="#">Repositório do projeto</a>
-            <a href="#">Link de acesso</a>
-            <p>Descrição do projeto: Website da empresa Rota 66 fabricante de quadros em mdf.</p>
+            <h2 class="titulo">Meus projetos</h2>
+            
+            <section class="caixa">
+                <img class="img-caixa" src="./assets/components/img/tela-rota66.png" alt="siterota66">
+                <div class="caixa-textos">
+                    <h3 class="titulo-caixa">Site Rota 66</h3>
+                    <p class="paragrafo-caixa"><strong>Status do projeto</strong> - Em produção</p>
+                    
+                    <a href="https://github.com/Fabio-Oliveira-dev/rota66.rockshop" class="ancora-caixa">Repositório do projeto</a>
+                    
+                    <a href="https://fabio-oliveira-dev.github.io/rota66.rockshop/" class="ancora-caixa">Link de acesso do projeto</a>
+                    
+                    <p class="paragrafo-caixa">Descrição do projeto: Website da empresa Rota 66 fabricante de quadros personalizados em mdf. O site foi desenvolvido usando html, css para fazer as marcações e a estilização do projeto e javascript para dar dinamismo ao site.</p>
+                </div>
+            </section>
+
+            <section class="caixa">
+                <img class="img-caixa" src="./assets/components/img/tela-rota66.png" alt="siterota66">
+                <div class="caixa-textos">
+                    <h3 class="titulo-caixa">Site Vagner Gomes Cruz - Advocacia</h3>
+                    <p class="paragrafo-caixa"><strong>Status do projeto</strong> - Em produção</p>
+                    
+                    <a href="https://github.com/Fabio-Oliveira-dev/rota66.rockshop" class="ancora-caixa">Repositório do projeto</a>
+                    
+                    <a href="https://fabio-oliveira-dev.github.io/rota66.rockshop/" class="ancora-caixa">Link de acesso do projeto</a>
+                    
+                    <p class="paragrafo-caixa">Descrição do projeto: Website da empresa Rota 66 fabricante de quadros personalizados em mdf. O site foi desenvolvido usando html, css para fazer as marcações e a estilização do projeto e javascript para dar dinamismo ao site.</p>
+                </div>
+            </section>
+
+            <section class="caixa">
+                <img class="img-caixa" src="./assets/components/img/tela-rota66.png" alt="siterota66">
+                <div class="caixa-textos">
+                    <h3 class="titulo-caixa">Site Diego Simonim - Advocacia</h3>
+                    <p class="paragrafo-caixa"><strong>Status do projeto</strong> - Em produção</p>
+                    
+                    <a href="https://github.com/Fabio-Oliveira-dev/rota66.rockshop" class="ancora-caixa">Repositório do projeto</a>
+                    
+                    <a href="https://fabio-oliveira-dev.github.io/rota66.rockshop/" class="ancora-caixa">Link de acesso do projeto</a>
+                    
+                    <p class="paragrafo-caixa">Descrição do projeto: Website da empresa Rota 66 fabricante de quadros personalizados em mdf. O site foi desenvolvido usando html, css para fazer as marcações e a estilização do projeto e javascript para dar dinamismo ao site.</p>
+                </div>
+            </section>
+
+            <section class="caixa">
+                <img class="img-caixa" src="./assets/components/img/tela-rota66.png" alt="siterota66">
+                <div class="caixa-textos">
+                    <h3 class="titulo-caixa">Site Antonieto & Motta - Advocacia</h3>
+                    <p class="paragrafo-caixa"><strong>Status do projeto</strong> - Em produção</p>
+                    
+                    <a href="https://github.com/Fabio-Oliveira-dev/rota66.rockshop" class="ancora-caixa">Repositório do projeto</a>
+                    
+                    <a href="https://fabio-oliveira-dev.github.io/rota66.rockshop/" class="ancora-caixa">Link de acesso do projeto</a>
+                    
+                    <p class="paragrafo-caixa">Descrição do projeto: Website da empresa Rota 66 fabricante de quadros personalizados em mdf. O site foi desenvolvido usando html, css para fazer as marcações e a estilização do projeto e javascript para dar dinamismo ao site.</p>
+                </div>
+            </section>
+
+            <section class="caixa">
+                <img class="img-caixa" src="./assets/components/img/tela-rota66.png" alt="siterota66">
+                <div class="caixa-textos">
+                    <h3 class="titulo-caixa">api Catalogo Pokemon</h3>
+                    <p class="paragrafo-caixa"><strong>Status do projeto</strong> - Em produção</p>
+                    
+                    <a href="https://github.com/Fabio-Oliveira-dev/rota66.rockshop" class="ancora-caixa">Repositório do projeto</a>
+                    
+                    <a href="https://fabio-oliveira-dev.github.io/rota66.rockshop/" class="ancora-caixa">Link de acesso do projeto</a>
+                    
+                    <p class="paragrafo-caixa">Descrição do projeto: Website da empresa Rota 66 fabricante de quadros personalizados em mdf. O site foi desenvolvido usando html, css para fazer as marcações e a estilização do projeto e javascript para dar dinamismo ao site.</p>
+                </div>
+            </section>
         </section>
 
-        <section class="projetos" id="curriculo">
-            <h2>Meu Currículo</h2>
-            <p>Download do currículo em .pdf</p>
-            <button>Download</button>
+        <!--Pagina curriculo-->
+        <section class="curriculo" id="curriculo">
+            <h2 class="titulo">Meu Currículo</h2>
+            <div class="caixa">
+                
+                <img class="img-caixa" src="./assets/components/img/tela-rota66.png" alt="img-curriculo">
+                
+                <div>
+                    <p class="paragrafo-caixa">Download do currículo em .pdf</p>
+                    
+                    <button class="btn">
+                        <a href="./assets/components/download/CV_FABIO_TI_02-24.pdf" download="CV_FABIO_TI_02-24">Baixar</a>
+                    </button>
+                </div>
+            </div>
         </section>
 
-        <section class="projetos" id="skill">
-            <h2>Skills</h2>
-            <h3>Hard Skills</h3>
-            <p>
-                <strong>Habilidades em softwares como:</strong> Word | Excel | Photoshop | <strong>Programação Full-Stack:</strong> Html | Css | Javascript | Php | <strong>Sistemas operacionais:</strong> Windows | Linux Ubuntu | <strong>Banco de dados</strong> PostgreSql | Sql.
-            </p><br>
-
-            <h3>Soft Skills</h3>
-            <p>
-                Percepção para resolução de problemas | Boa comunicação para com a equipe | Responsabilidade para com o trabalho | Atenção concentrada | Proatividade para buscar melhorias para os processos de trabalho | Organização | Facilidade para aprendizado.
-            </p><br>
+        <!--Pagina skill-->
+        <section class="skill" id="skill">
+            <h2 class="titulo">Skills</h2>
+            
+            <div>
+                <h3 class="subtitulo-skill">Hard Skills</h3>
+                
+                <p class="paragrafo-caixa">
+                    <strong>Habilidades em softwares como:</strong> Word | Excel | Photoshop | <strong>Programação Full-Stack:</strong> Html | Css | Javascript | Php | <strong>Sistemas operacionais:</strong> Windows | Linux Ubuntu | <strong>Banco de dados</strong> PostgreSql | Sql.
+                </p><br>
+    
+                <h3 class="subtitulo">Soft Skills</h3>
+                
+                <p class="paragrafo-caixa">
+                    Empatia | Percepção para resolução de problemas | Boa comunicação | Responsabilidade para com o trabalho | Atenção concentrada | Proatividade para buscar melhorias para os processos de trabalho | Organização | Facilidade para aprendizado.
+                </p><br>
+            </div>
         </section>
+        
+        <a href="#inicio"><button class="btn-voltar">Voltar</button></a>
+        
     </main>
 
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/scripteventos.js"></script>
 </body>
 </html>

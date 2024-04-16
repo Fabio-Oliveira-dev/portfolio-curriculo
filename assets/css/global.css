@@ -10,5 +10,9 @@ html{
 }
 
 body{
-    font-family: 'poppinsregular', sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
 }

@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
 .container{
+  font-family: "Poppins", sans-serif;
   background: rgb(34, 34, 34);
 }
 
@@ -25,14 +29,15 @@
 }
 
 .titulo{
-  font-family: 'Poppinsbold',sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 10px;
 }
 
 .subtitulo{
-  font-family: 'Poppinsregular',sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -86,14 +91,132 @@
 }
 
 .caixa-frase-paragrafo{
-  font-family: 'Poppinsbold', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   text-align: center;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 700;
   padding-top: 20px;
 }
 
 .caixa-frase-paragrafo:hover{
   color: #000000;
+}
+
+.sobre{
+  color: #F4E9E0;
+  padding: 0 1rem;
+}
+.sobre .titulo{
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.sobre p{
+  padding: 0 1rem;
+  border: 1px #fff solid;
+  border-radius: 5px;
+}
+
+
+/*Pagina projetos*/
+.projetos .titulo{
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1rem;
+  gap: 2rem;
+}
+
+.caixa>.caixa-textos>.titulo-caixa{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.caixa .caixa-textos{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.caixa .img-caixa{
+  height: 250px;
+}
+
+.caixa-textos .ancora-caixa{
+  color: #000;
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.caixa-textos .ancora-caixa:hover{
+  color: #FFF;
+  background-color: #353535;
+}
+
+/*Pagina curriculo*/
+.titulo{
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-caixa{
+  height: 250px;
+}
+
+.btn{
+  background-color: #353535;
+  border: none;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.btn > a{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  background-color: #FFF;
+  color: #353535;
+}
+
+.btn > a:hover{
+  color:#353535;
+}
+
+/*Pagina skill*/
+.skill{
+  padding: 1rem 1rem;
+}
+
+.subtitulo-skill{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-voltar{
+  width: 70px;
+  height: 25px;
+  color: #353535;
+  background-color: #FFF;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
