@@ -3,16 +3,17 @@
 
 .container{
   font-family: "Poppins", sans-serif;
-  background: rgb(34, 34, 34);
+  
 }
 
 .cabecalho{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   min-height: 300px;
-  background-color: #353535;
+  
 }
 
 .img-perfil{
@@ -28,17 +29,18 @@
   text-align: center;
 }
 
-.titulo{
+.titulo-cabecalho{
   font-family: 'Poppins',sans-serif;
   font-size: 30px;
   font-weight: 700;
   margin-top: 10px;
 }
 
-.subtitulo{
+.subtitulo-cabecalho{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .caixa-principal-formacao-contatos{
@@ -62,10 +64,12 @@
 .caixa-principal-rede img{
   width: 30px;
   height: 30px;
+  margin-bottom: 15px;
 }
 
 .caixa-principal-rede img:hover{
-  box-shadow: #FFFFFF 1px 1px 5px;
+  filter: drop-shadow(1px 1px 3px #FFFFFF);
+  transition: linear 0.2s;
 }
 
 .menu{
@@ -83,11 +87,25 @@
 
 .menu a:hover{
   color: #000000;
+  transition: linear 0.2s;
 }
 
+.cabecalho .img-cabecalho{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  z-index: -1;
+}
+
+
+/*Caixa frase*/
 .caixa-frase{
   height: 150px;
   background-color: #183242;
+  margin-bottom: 30px;
 }
 
 .caixa-frase-paragrafo{
@@ -103,6 +121,41 @@
   color: #000000;
 }
 
+
+/* Serviços */
+.servicos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 1rem 1rem;
+  margin-bottom: 30px;
+}
+
+.frase-servicos{
+  text-align: center;
+  margin: 0.5rem 0.5rem;
+}
+
+.servicos-caixa{
+  width: 400px;
+  padding: 0.5rem;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  max-height: 250px;
+  overflow: auto;
+  text-align: justify;
+}
+
+.servicos-caixa>h3{
+  text-transform: uppercase;
+  text-align: center;
+}
+.servicos-caixa:hover{
+  box-shadow: #FFF 2px 2px 10px;
+  transition: all 0.2s ease;
+}
+
+/* Sobre */
 .sobre{
   color: #F4E9E0;
   padding: 0 1rem;
@@ -111,12 +164,6 @@
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
-}
-
-.sobre p{
-  padding: 0 1rem;
-  border: 1px #fff solid;
-  border-radius: 5px;
 }
 
 
@@ -210,13 +257,8 @@
   text-transform: uppercase;
 }
 
-.btn-voltar{
-  width: 70px;
-  height: 25px;
-  color: #353535;
-  background-color: #FFF;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  text-transform: uppercase;
+.btn-voltar>img{
+  position: fixed;
+  bottom: 4px;
+  right: 15px;
 }
