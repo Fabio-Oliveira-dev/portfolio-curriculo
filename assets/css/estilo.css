@@ -3,7 +3,6 @@
 
 .container{
   font-family: "Poppins", sans-serif;
-  
 }
 
 .cabecalho{
@@ -19,8 +18,8 @@
 .img-perfil{
   object-fit: cover;
   border-radius: 50%;
-  width: 160px;
-  height: 160px;
+  width: 190px;
+  height: 190px;
   margin-top: 15px;
 }
 
@@ -41,6 +40,8 @@
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .caixa-principal-formacao-contatos{
@@ -79,6 +80,7 @@
   text-transform: uppercase;
   margin: 0px 0px 10px 0px;
   gap: 26px;
+  font-weight: 500;
 }
 
 .menu a{
@@ -86,7 +88,7 @@
 }
 
 .menu a:hover{
-  color: #000000;
+  color: #d3ad7f;
   transition: linear 0.2s;
 }
 
@@ -122,7 +124,15 @@
 }
 
 
-/* Serviços */
+/* Pagina Serviços */
+#servicos .titulo{
+  color: #FFFFFF;
+}
+
+#servicos span{
+  color: #d3ad7f;
+}
+
 .servicos{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -132,46 +142,72 @@
 }
 
 .frase-servicos{
-  text-align: center;
+  text-align: justify;
   margin: 0.5rem 0.5rem;
 }
 
 .servicos-caixa{
   width: 400px;
   padding: 0.5rem;
-  border: 2px solid #FFF;
+  border: 1px solid #FFF;
   border-radius: 5px;
   max-height: 250px;
   overflow: auto;
-  text-align: justify;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.servicos-caixa:hover{
+  background-color: #FFFFFF;
+}
+
+.servicos-caixa:hover>*{
+  color: #353535;
 }
 
 .servicos-caixa>h3{
   text-transform: uppercase;
   text-align: center;
 }
-.servicos-caixa:hover{
-  box-shadow: #FFF 2px 2px 10px;
-  transition: all 0.2s ease;
+
+.servicos-caixa>p{
+  color: #FFFFFF;
+  text-align: justify;
 }
 
-/* Sobre */
+
+/* Pagina Sobre */
 .sobre{
   color: #F4E9E0;
   padding: 0 1rem;
 }
+
 .sobre .titulo{
+  color: #FFFFFF;
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
+}
+
+.sobre .titulo span{
+  color: #d3ad7f;
+}
+
+.sobre p{
+  text-align: justify;
 }
 
 
 /*Pagina projetos*/
 .projetos .titulo{
+  color: #FFFFFF;
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
+}
+
+.projetos span{
+  color: #d3ad7f;
 }
 
 .caixa{
@@ -181,10 +217,15 @@
   gap: 2rem;
 }
 
-.caixa>.caixa-textos>.titulo-caixa{
+.caixa .caixa-textos p{
+  text-align: justify;
+}
+
+.caixa .caixa-textos .titulo-caixa{
   font-size: 2rem;
   text-transform: uppercase;
 }
+
 .caixa .caixa-textos{
   display: flex;
   flex-direction: column;
@@ -197,22 +238,27 @@
 
 .caixa-textos .ancora-caixa{
   color: #000;
-  background-color: #fff;
+  background-color: #d3ad7f;
   width: fit-content;
   border-radius: 2px;
   padding: 2px;
 }
 
 .caixa-textos .ancora-caixa:hover{
-  color: #FFF;
-  background-color: #353535;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 /*Pagina curriculo*/
 .titulo{
+  color: #FFFFFF;
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
+}
+
+.curriculo span{
+  color: #d3ad7f;
 }
 
 .caixa{
@@ -225,36 +271,49 @@
 }
 
 .btn{
-  background-color: #353535;
+  background-color: #d3ad7f;
   border: none;
   width: 150px;
   height: 150px;
   border-radius: 5px;
-}
-
-.btn > a{
   font-size: 1.5rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn:hover{
-  background-color: #FFF;
   color: #353535;
+  background-color: #FFFFFF;
 }
 
-.btn > a:hover{
-  color:#353535;
+/* .btn a{
+  text-transform: uppercase;
+  color: #353535;
+  font-size: 1.5rem;
 }
+.btn a:hover{
+  color: #353535;
+} */
+
+
 
 /*Pagina skill*/
 .skill{
   padding: 1rem 1rem;
 }
 
+#skill-titulo{
+  color: #d3ad7f;
+}
+
 .subtitulo-skill{
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.skill-caixa p{
+  text-align: justify;
 }
 
 .btn-voltar>img{
