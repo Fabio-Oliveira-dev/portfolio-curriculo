@@ -3,6 +3,7 @@
     .container{
         position: relative;
     }
+
     .caixa-principal-formacao{
         width: 100%;
         text-align: center;
@@ -23,14 +24,14 @@
     .menu{
         display: flex;
         flex-direction: row;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-transform: uppercase;
-        margin: 10px 10px;
-        gap: 15px;
+        gap: 10px;
         font-weight: 500;
         line-height: 15px;
     }
 
+    
     .caixa-frase{
         height: 160px;
         background-color: #183242;
@@ -79,8 +80,15 @@
         gap: 20px;
     }
 
+    .paragrafo-caixa{
+        line-height: 18px;
+    }
+    
     .caixa .caixa-textos .titulo-caixa{
-        line-height: 30px;
+        font-size: 1rem;
+        text-align: justify;
+        line-height: 18px;
+
     }
 
     .caixa .img-caixa{
@@ -89,8 +97,22 @@
 
     }
 
+    .caixa-textos .ancora-caixa{
+        line-height: 18px;
+    }
+
+    #paragrafo-2{
+        height: 150px;
+        line-height: 18px;
+        overflow: scroll;
+    }
+
     .btn-voltar>img{
         position: fixed;
         top: 490px;
+        right: 35px;
+        width: 40px;
+        height: auto;
+
     }
 }
