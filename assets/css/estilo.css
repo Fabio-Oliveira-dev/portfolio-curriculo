@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
+/*Variaveis*/
+:root{
+  --color-cards: #1f1f1f;
+}
 
 .container{
   font-family: "Poppins", sans-serif;
@@ -36,7 +40,6 @@
 }
 
 .subtitulo-cabecalho{
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 20px;
@@ -44,15 +47,20 @@
   text-transform: uppercase;
 }
 
-.caixa-principal-formacao-contatos{
-  display: flex;
-  flex-direction: row;
-  gap: 200px;
-}
-
 .caixa-principal-formacao{
+  width: 75%;
   display: flex;
   flex-direction: column;
+  text-align: left;
+}
+
+.caixa-principal-formacao-contatos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: right;
+  /* gap: 200px; */
 }
 
 .caixa-principal-redes{
@@ -127,6 +135,7 @@
 /* Pagina Serviços */
 #servicos .titulo{
   color: #FFFFFF;
+
 }
 
 #servicos span{
@@ -155,6 +164,8 @@
   overflow: auto;
   transition: all 0.3s ease-in;
   cursor: pointer;
+  background-color: var(--color-cards);
+  line-height: 18px;
 }
 
 .servicos-caixa:hover{
@@ -168,6 +179,7 @@
 .servicos-caixa>h3{
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .servicos-caixa>p{
