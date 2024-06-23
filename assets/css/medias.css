@@ -4,14 +4,14 @@
         position: relative;
     }
 
-    .caixa-principal-formacao{
+    .caixa-principal-formacao {
         width: 100%;
         text-align: center;
         line-height: 18px;
         margin-bottom: 15px;
     }
     
-    .caixa-principal-formacao-contatos{
+    .caixa-principal-formacao-contatos {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -21,7 +21,7 @@
         margin-bottom: 20px;
     }
 
-    .menu{
+    .menu {
         display: flex;
         flex-direction: row;
         font-size: 0.8rem;
@@ -32,25 +32,25 @@
     }
 
     
-    .caixa-frase{
+    .caixa-frase {
         height: 160px;
         background-color: #183242;
         padding: 0 5px;
     }
 
-    .caixa-frase-paragrafo{
+    .caixa-frase-paragrafo {
         font-size: 1.5rem;
         text-align: center;
         line-height: 25px;
         font-weight: 700;
     }
 
-    .titulo{
+    .titulo {
         line-height: 45px;
         margin-top:20px;
     }
 
-    .servicos{
+    .servicos {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -60,7 +60,7 @@
         margin-bottom: 30px;
     }
 
-    .servicos-caixa{
+    .servicos-caixa {
         width: 100%;
         height: 200px;
         padding: 0.5rem;
@@ -73,41 +73,41 @@
         background-color: var(--color-cards);
     }
 
-    .caixa{
+    .caixa {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-    .paragrafo-caixa{
+    .paragrafo-caixa {
         line-height: 18px;
     }
     
-    .caixa .caixa-textos .titulo-caixa{
+    .caixa .caixa-textos .titulo-caixa {
         font-size: 1rem;
         text-align: justify;
         line-height: 18px;
 
     }
 
-    .caixa .img-caixa{
-        width: 180px;
-        height: 300px;
+    .caixa .img-caixa {
+        width: 90%;
+        height: auto;
 
     }
 
-    .caixa-textos .ancora-caixa{
+    .caixa-textos .ancora-caixa {
         line-height: 18px;
     }
 
-    #paragrafo-2{
+    #paragrafo-2 {
         height: 150px;
         line-height: 18px;
         overflow: scroll;
     }
 
-    .btn-voltar>img{
+    .btn-voltar>img {
         position: fixed;
         top: 490px;
         right: 35px;
