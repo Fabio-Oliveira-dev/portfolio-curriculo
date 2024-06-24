@@ -1,48 +1,53 @@
-const url = 'https://github.com/Fabio-Oliveira-dev';
-const a = document.querySelector('#git');
+let urlGit = 'https://github.com/Fabio-Oliveira-dev';
+let git = document.getElementById('git');
 
-function openInNewTab(url){
-    const win = window.open(url, '_blank')
-    win.focus()
-};
-
-a.addEventListener('click', () => {
-    openInNewTab(url)
-});
+git.addEventListener("click", function() {
+    window.open(urlGit, '_blank');
+})
 
 
-const urlBehance = 'https://www.behance.net/fabio-dev-designer';
-const aBehance = document.querySelector('#behance');
+let urlBehance = 'https://www.behance.net/fabio-dev-designer';
+behance = document.getElementById('behance');
 
-function openInNewTab(urlBehance){
-    const win = window.open(urlBehance, '_blanck')
-    win.focus()
-};
+behance.addEventListener("click", function() {
+    window.open(urlBehance, '_blank');
+})
 
-aBehance.addEventListener('click', () => {
-    openInNewTab(urlBehance)
-});
 
-const urlLinkedin = 'https://www.linkedin.com/in/fabio-oliveira-a8a60321b/';
-const aLinkedin = document.querySelector('#linkedin');
+let urlLinkedin = 'https://www.linkedin.com/in/fabio-oliveira-a8a60321b/';
+let linkedin = document.getElementById('linkedin');
 
-function openInNewTab(urlLinkedin) {
-    const win = window.open(urlLinkedin, '_blank')
-    win.focus()
-};
+linkedin.addEventListener("click", function() {
+    window.open(urlLinkedin, '_blank');
+})
 
-aLinkedin.addEventListener('click', () => {
-    openInNewTab(urlLinkedin)
-});
 
-const urlTiktok = 'https://www.tiktok.com/@fabiooliveiradev';
-const aTiktok = document.querySelector('#tiktok');
+let urlTiktok = 'https://www.tiktok.com/@fabiooliveiradev';
+let tiktok = document.getElementById('tiktok');
 
-function openInNewTab(urlTiktok) {
-    const win = window.open(urlTiktok, '_blanck')
-    win.focus()
-};
+tiktok.addEventListener("click", function() {
+    window.open(urlTiktok, '_blank');
+})
 
-aTiktok.addEventListener('click', () => {
-    openInNewTab(urlTiktok)
-});
+let urlInstagram = 'https://www.instagram.com/fabio.oliveira92/';
+let instagram = document.getElementById('instagram');
+
+instagram.addEventListener("click", function() {
+    window.open(urlInstagram, '_blank');
+})
+
+let fone = '21968917243';
+let urlWhatsapp = `https://wa.me/${fone}`;
+let whatsapp = document.getElementById('whatsapp');
+
+whatsapp.addEventListener("click", function() {
+    window.open(urlWhatsapp, '_blank');
+})
+
+// let email = 'fabiooliveiraideia2@gmail.com';
+// let urlEmail = `mailto:${email}`;
+// let e_mail = document.getElementById('email');
+
+// e_mail.addEventListener("click", function() {
+//     window.open(urlEmail, '_blank');
+// })
