@@ -52,10 +52,11 @@ whatsapp.addEventListener("click", function() {
 //     window.open(urlEmail, '_blank');
 // })
 
-/* Inicio Links github e acesso aos projetos*/
-let ancoras = document.getElementsByClassName(".ancora-caixa");
 
-ancoras.addEventListener("click", function() {
-    window.open(ancoras, '_blank');
-})
+/* Inicio Links github e acesso aos projetos*/
+// let ancoras = document.getElementsByClassName(".ancora-caixa");
+
+// ancoras.addEventListener("click", function() {
+//     window.open(ancoras, '_blank');
+// })
 /* Fim Links github e acesso aos projetos*/

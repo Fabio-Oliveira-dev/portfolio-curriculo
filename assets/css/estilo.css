@@ -2,6 +2,8 @@
 
 :root{
   --color-cards: #1f1f1f;
+  --color-cinza:#c3c3c3;
+  --color-dourado:#d3ad7f;
 }
 
 .container {
@@ -150,7 +152,6 @@
 /* Pagina Serviços */
 #servicos .titulo {
   color: #FFFFFF;
-
 }
 
 #servicos span {
@@ -165,9 +166,88 @@
   margin-bottom: 30px;
 }
 
-.frase-servicos {
-  text-align: justify;
-  margin: 0.5rem 0.5rem;
+.destaques-servicos {
+  margin-left: 1.5rem;
+}
+
+.destaques-servicos h3 {
+  font-size: 4rem;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+#paragrafo-1 {
+  width: 400px;
+  font-size: 2rem;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.destaques-btn {
+  width: 250px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--color-dourado);
+  border-radius: 5px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  transition: .3s;
+}
+
+#espaco {
+  width: 100%;
+  height: 200px;
+}
+
+.destaques-servicos h4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.destaques-artigos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 20px;
+  margin-right: 1rem;
+}
+
+.destaques-artigos article {
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.destaques-artigos h2 {
+  font-size: 2rem;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+#paragrafo-2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.sites:hover p {
+  letter-spacing: 2px;
+  background-color: var(--color-dourado);
+  border-radius: 5px;
+}
+
+#btn-orcamento {
+  font-size: 1rem;
 }
 
 .servicos-caixa {
@@ -181,6 +261,7 @@
   cursor: pointer;
   background-color: var(--color-cards);
   line-height: 18px;
+  margin-top: 30px;
 }
 
 .servicos-caixa:hover {
