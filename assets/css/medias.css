@@ -1,4 +1,10 @@
 /* Responsividade celular */
+:root{
+    --color-cards: #1f1f1f;
+    --color-cinza:#c3c3c3;
+    --color-dourado:#d3ad7f;
+  }
+
 @media (max-width: 490px){
     .container{
         position: relative;
@@ -50,6 +56,51 @@
         margin-top:20px;
     }
 
+    /* serviços, seção serviços sites*/
+    .destaques-servicos > h3 {
+        margin-top: 25px;
+    }
+
+    .destaques-servicos > h4 {
+        line-height: 35px;
+        padding-right: 1rem;
+    }
+
+    .destaques-artigos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destaques-artigos article > h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .destaques-artigos article p > span {
+        color: var(--color-dourado);
+    }
+
+    .destaques-servicos #paragrafo-2 {
+        
+        line-height: 30px;
+        padding-right: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .sites {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    /* .destaques-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
     .servicos {
         display: flex;
         flex-direction: column;
@@ -99,12 +150,6 @@
 
     .caixa-textos .ancora-caixa {
         line-height: 18px;
-    }
-
-    #paragrafo-2 {
-        height: 150px;
-        line-height: 18px;
-        overflow: scroll;
     }
 
     .btn-voltar>img {
