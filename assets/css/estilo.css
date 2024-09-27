@@ -388,12 +388,12 @@
   color: #d3ad7f;
 }
 
-.caixa {
+.curriculo-caixa {
   display: flex;
   flex-direction: row;
 }
 
-.img-caixa {
+.img-curriculo {
   height: 250px;
 }
 
